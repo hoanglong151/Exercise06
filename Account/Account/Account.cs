@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Problem1
 {
     public class Account
@@ -16,12 +17,12 @@ namespace Problem1
 
         public void Deposit(int amount)
         {
-            money -= amount;
+            money += amount;
 
         }
         public void Withdraw(int amount)
         {
-            money += amount;
+            money -= amount;
         }
         public int Balance()
         {

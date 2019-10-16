@@ -38,9 +38,9 @@ namespace UnitTestProject1
         {
             Account acc = new Account(500000);
             acc.Deposit(200000);
-            Assert.AreEqual(300000, acc.Balance());
+            Assert.AreEqual(700000, acc.Balance());
             acc.Deposit(300000);
-            Assert.AreEqual(800000, acc.Balance());
+            Assert.AreEqual(1000000, acc.Balance());
         }
     }
 }
